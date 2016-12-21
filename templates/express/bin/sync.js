@@ -2,8 +2,8 @@
 
 // 引用
 const co = require('co');
-const fs = require('fs');
 const path = require('path');
+const fs = require('fs-extra');
 const Sequelize = require('sequelize');
 const func = require('../src/common/func');
 const config = require('../src/common/config');
@@ -58,6 +58,7 @@ co(function *() {
     schema += 'module.exports = schema;\n';
 
     // 同步文件
+    fs.mkdirsSync(path.join(__dirname, '../src/models/schemas'));
     fs.writeFileSync(path.join(__dirname, '../src/models/schemas', `${name}.js`), schema);
   }
 }).then(function() {
