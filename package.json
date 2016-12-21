@@ -1,0 +1,27 @@
+{
+  "name": "awesome-generator",
+  "version": "1.0.0",
+  "description": "an awesome scaffold generator for nodejs backend project",
+  "keywords": ["scaffold", "generator"],
+  "main": "bin/awesome.js",
+  "bin": {
+    "awesome": "./bin/awesome.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xubensheng <http://fengliner.github.io>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fengliner/awesome-generator.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fengliner/awesome-generator/issues"
+  },
+  "dependencies": {
+    "cli-color": "^1.1.0",
+    "commander": "^2.9.0",
+    "fs-extra": "^0.28.0"
+  }
+}
