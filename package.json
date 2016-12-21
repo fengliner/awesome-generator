@@ -5,7 +5,7 @@
   "keywords": ["scaffold", "generator"],
   "main": "bin/awesome.js",
   "bin": {
-    "awesome": "./bin/awesome.js"
+    "awesome-generator": "./bin/awesome.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
