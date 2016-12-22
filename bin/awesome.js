@@ -25,7 +25,7 @@ let name;
 program
   .version(version)
   .usage('[options] <name>')
-  .option('-t, --template', 'specify the template to use. Default express')
+  .option('-t, --template <template>', 'specify the template to use. Default express')
   .option('-l, --list', 'list all templates')
   .action(function(name_) {
     name = typeof name_ === 'string' ? name_ : null;
@@ -51,7 +51,7 @@ if (!name) {
 }
 
 if (!templates[template]) {
-  console.log(color.red(`  Template "${program.template}" is not available now. Please run 'awesome -l' to show all available templates for now.`));
+  console.log(color.red(`  Template "${program.template}" is not available now. Please run 'awesome-generator -l' to show all available templates for now.`));
   console.log();
   return;
 }
