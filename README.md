@@ -1,6 +1,6 @@
 # awesome-generator
 
-an awesome backend scaffold generator for nodejs
+awesome generator for nodejs
 
 ## Install
 
@@ -15,3 +15,9 @@ an awesome backend scaffold generator for nodejs
 or    
 
     awesome-generator -t express myapp
+
+## Template
+
+Avaliable template now is only `express`.       
+Welcome to add your favourite to the directory of `templates`.
+

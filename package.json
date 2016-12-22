@@ -1,7 +1,7 @@
 {
   "name": "awesome-generator",
-  "version": "1.0.4",
-  "description": "an awesome scaffold generator for nodejs backend project",
+  "version": "1.0.5",
+  "description": "awesome generator for nodejs",
   "keywords": ["scaffold", "generator"],
   "main": "bin/awesome.js",
   "bin": {

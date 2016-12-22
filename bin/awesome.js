@@ -14,9 +14,9 @@ const cwd = process.cwd();
 program.on('--help', function() {
   console.log('  Examples:');
   console.log('');
-  console.log('    $ awesome myapp');
-  console.log('    $ awesome -t express myapp');
-  console.log('    $ awesome -t koa myapp');
+  console.log('    $ awesome-generator myapp');
+  console.log('    $ awesome-generator -t express myapp');
+  console.log('    $ awesome-generator -t koa myapp');
   console.log('');
   console.log();
 });
